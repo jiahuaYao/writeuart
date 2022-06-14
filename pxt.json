@@ -1,5 +1,5 @@
 {
-    "name": "writeUart",
+    "name": "writeUartContinue",
     "description": "",
     "dependencies": {
         "core": "*",
