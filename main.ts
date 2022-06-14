@@ -17,10 +17,10 @@ basic.forever(function () {
     if (running) {
         led.plotBarGraph(
         count,
-        60
+        1e+100
         )
         bluetooth.uartWriteValue("COUNT", count)
-        count += 1
-        basic.pause(1000)
+        count += 1000
+        basic.pause(100)
     }
 })
